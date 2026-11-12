@@ -1,3 +1,12 @@
+---
+license: mit
+title: Seva Agent
+sdk: gradio
+emoji: 🚀
+colorFrom: indigo
+colorTo: indigo
+short_description: Discover Indian welfare schemes and check eligibility
+---
 # 🇮🇳 SevaAgent
 
 **An open-source agentic AI assistant that helps Indian citizens discover

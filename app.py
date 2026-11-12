@@ -28,6 +28,15 @@ for _k in ("no_proxy", "NO_PROXY"):
 
 import gradio as gr
 
+# On Hugging Face Spaces (ZeroGPU) the chat handler runs on GPU; locally the
+# `spaces` package is absent, so fall back to a no-op decorator.
+try:
+    import spaces
+    _gpu = spaces.GPU(duration=120)
+except ImportError:
+    def _gpu(fn):
+        return fn
+
 from agent import answer, is_hindi
 from llm import get_llm_config
 from tools import (
@@ -124,6 +133,7 @@ def check_my_eligibility(age, income, state, category, gender, occupation,
     return format_eligibility(check_eligibility(profile))
 
 
+@_gpu
 def chat_reply(message, history, age, income, state, category, gender, occupation,
                is_farmer, has_girl_child, is_student, is_artisan,
                own_house, has_bank_account, area, secc, has_business):
