@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "dataset": "SevaAgent curated Indian government welfare schemes",
+    "disclaimer": "SevaAgent gives general information only. It does not enrol you in any scheme and it is not a government service. Final eligibility is decided by the scheme's official process.",
+    "last_verified": "2026-11-12",
+    "note": "All benefit amounts and eligibility rules were checked against official scheme pages and government sources in November 2026. Scheme rules change from time to time — always confirm on the official portal before applying. Amounts are in Indian Rupees."
+  },
+  "schemes": [
+    {
+      "benefit": "Free hospital treatment up to ₹5 lakh per family per year, cashless, at 30,000+ empanelled government and private hospitals. Covers about 1,900 procedures including surgery, cancer care and dialysis.",
+      "benefit_short": "₹5 lakh/year free hospital cover",
+      "category": "health",
+      "description": "The world's largest government-funded health insurance scheme. Families listed in the SECC 2011 database are covered automatically — no separate application and no income certificate are needed. Since October 2024, every citizen aged 70 and above is covered regardless of income, under Ayushman Vaya Vandana.",
+      "description_hi": "₹5 लाख तक का मुफ़्त इलाज हर साल, पूरे परिवार के लिए।",
+      "documents": [
+        "Aadhaar card",
+        "Ration card or family ID",
+        "Mobile number"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Families not in the SECC 2011 list (or state/NFSA lists) are generally not covered, except senior citizens aged 70+.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "secc_listed"
+        ]
+      },
+      "helpline": "14555",
+      "how_to_apply": [
+        "Check your name on the beneficiary list at beneficiary.nha.gov.in or call 14555.",
+        "If your family is listed, get your Ayushman card made at a Common Service Centre (CSC), empanelled hospital, or through the Ayushman app.",
+        "Show the card at any empanelled hospital for cashless treatment."
+      ],
+      "id": "pmjay",
+      "keywords": [
+        "health",
+        "hospital",
+        "insurance",
+        "ayushman",
+        "card",
+        "treatment",
+        "surgery",
+        "doctor",
+        "medical",
+        "bima",
+        "swasthya",
+        "illness",
+        "cancer",
+        "dialysis",
+        "स्वास्थ्य",
+        "इलाज",
+        "अस्पताल",
+        "बीमा"
+      ],
+      "ministry": "Ministry of Health and Family Welfare / National Health Authority",
+      "name": "Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+      "name_hi": "आयुष्मान भारत – प्रधानमंत्री जन आरोग्य योजना",
+      "official_portal": "https://pmjay.gov.in"
+    },
+    {
+      "benefit": "₹5 lakh free hospital cover per year for every citizen aged 70 or above, whatever their income. If the family is already covered under PM-JAY, the senior gets an additional separate ₹5 lakh top-up.",
+      "benefit_short": "₹5 lakh/year free hospital cover for all 70+",
+      "category": "health",
+      "description": "Launched on 29 October 2024. Unlike regular PM-JAY, there is no SECC list or income condition for senior citizens — age 70 or above is enough. Enrolment is through the PM-JAY portal or app.",
+      "description_hi": "70 साल या उससे ऊपर के हर नागरिक के लिए ₹5 लाख का मुफ़्त इलाज, आय चाहे कुछ भी हो।",
+      "documents": [
+        "Aadhaar card",
+        "Mobile number",
+        "Age proof if Aadhaar age is not updated"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "None on income. Senior citizens already covered by a government health scheme (CGHS, ECHS etc.) must choose one scheme.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": 70,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "senior_70plus"
+        ]
+      },
+      "helpline": "14555",
+      "how_to_apply": [
+        "Go to beneficiary.nha.gov.in and select the senior citizen (70+) enrolment option.",
+        "Complete e-KYC with Aadhaar and get the Ayushman Vaya Vandana card.",
+        "Use the card at any empanelled hospital for cashless treatment."
+      ],
+      "id": "vaya-vandana",
+      "keywords": [
+        "senior",
+        "70",
+        "elderly",
+        "old age",
+        "vaya vandana",
+        "health",
+        "hospital",
+        "retired",
+        "grandfather",
+        "grandmother",
+        "buzurg",
+        "बुजुर्ग",
+        "वरिष्ठ",
+        "दादा",
+        "दादी"
+      ],
+      "ministry": "Ministry of Health and Family Welfare / National Health Authority",
+      "name": "Ayushman Vaya Vandana (PM-JAY for Senior Citizens 70+)",
+      "name_hi": "आयुष्मान वय वंदना – 70 वर्ष से ऊपर के वरिष्ठ नागरिकों के लिए",
+      "official_portal": "https://pmjay.gov.in"
+    },
+    {
+      "benefit": "₹6,000 per year, paid in 3 instalments of ₹2,000, directly into the farmer's bank account (DBT).",
+      "benefit_short": "₹6,000/year direct income support for farmers",
+      "category": "agriculture",
+      "description": "Income support for all landholding farmer families in India. The money comes straight to the Aadhaar-linked bank account. e-KYC is mandatory to keep receiving instalments.",
+      "description_hi": "किसान परिवार को साल में ₹6,000, सीधे बैंक खाते में।",
+      "documents": [
+        "Aadhaar card",
+        "Land ownership papers (khata/khasra)",
+        "Bank account details",
+        "Mobile number"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Income-tax payers, government employees (except Group D / MTS / Class IV), professionals like doctors, engineers, lawyers and CAs, and institutional landholders are excluded.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "farmer"
+        ],
+        "requires": [
+          "landholding"
+        ]
+      },
+      "helpline": "155261 / 011-24300606",
+      "how_to_apply": [
+        "Apply on pmkisan.gov.in (New Farmer Registration) or at a CSC / village patwari office.",
+        "Complete e-KYC (OTP, biometric or face-auth) and link your bank account with Aadhaar.",
+        "Check instalment status on the portal under 'Beneficiary Status'."
+      ],
+      "id": "pm-kisan",
+      "keywords": [
+        "kisan",
+        "farmer",
+        "agriculture",
+        "land",
+        "income support",
+        "farming",
+        "kheti",
+        "crop",
+        "pm kisan",
+        "2000",
+        "instalment",
+        "किसान",
+        "खेती",
+        "फसल"
+      ],
+      "ministry": "Ministry of Agriculture and Farmers Welfare",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "name_hi": "प्रधानमंत्री किसान सम्मान निधि",
+      "official_portal": "https://pmkisan.gov.in"
+    },
+    {
+      "benefit": "₹1.20 lakh in plain areas (₹1.30 lakh in hilly/difficult areas) to build a pucca house, plus ₹12,000 for a toilet and 90/95 days of wage employment under MGNREGA.",
+      "benefit_short": "₹1.20–1.30 lakh to build a rural pucca house",
+      "category": "housing",
+      "description": "Housing support for rural families who are houseless or live in kutcha/dilapidated houses. Beneficiaries are identified from the SECC 2011 list and the Awaas+ survey. Money is paid in instalments directly to the bank account as construction progresses.",
+      "description_hi": "गाँव में पक्का मकान बनाने के लिए ₹1.20 लाख तक की मदद।",
+      "documents": [
+        "Aadhaar card",
+        "MGNREGA job card (if available)",
+        "Bank account details",
+        "Affidavit of not owning a pucca house"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Families that already own a pucca house, a motorised vehicle, or have a government employee or income-tax payer as a member are generally excluded.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "rural",
+          "no_pucca_house",
+          "secc_listed"
+        ]
+      },
+      "helpline": "Toll-free via state rural development helpline",
+      "how_to_apply": [
+        "Check your name in the PMAY-G list at pmayg.nic.in or with your Gram Panchayat.",
+        "If listed, the house is sanctioned and money comes in instalments to your bank account.",
+        "If your name is missing, raise it through the Gram Sabha or the Awaas+ survey."
+      ],
+      "id": "pmay-gramin",
+      "keywords": [
+        "awas",
+        "house",
+        "gramin",
+        "rural",
+        "housing",
+        "makaan",
+        "ghar",
+        "pucca",
+        "village",
+        "gaon",
+        "मकान",
+        "घर",
+        "आवास",
+        "गाँव"
+      ],
+      "ministry": "Ministry of Rural Development",
+      "name": "PM Awas Yojana – Gramin (PMAY-G)",
+      "name_hi": "प्रधानमंत्री आवास योजना – ग्रामीण",
+      "official_portal": "https://pmayg.nic.in"
+    },
+    {
+      "benefit": "Up to ₹2.5 lakh to build or buy a house (EWS families), or a 4% interest subsidy on a home loan up to ₹1.8 lakh (EWS/LIG/MIG). Target: 1 crore urban families over 2024–2029.",
+      "benefit_short": "Up to ₹2.5 lakh for an urban house, or home-loan subsidy",
+      "category": "housing",
+      "description": "Second phase of the urban housing mission, approved 9 August 2024 and started 1 September 2024. Four parts: build on your own land (BLC), buy in a project (AHP), affordable rental housing (ARH), and interest subsidy on home loans (ISS). A family can take help under only one part.",
+      "description_hi": "शहर में मकान बनाने या खरीदने के लिए ₹2.5 लाख तक की मदद।",
+      "documents": [
+        "Aadhaar card",
+        "Income certificate",
+        "Bank account details",
+        "Property/land papers (for BLC)"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Families owning a pucca house anywhere in India, or who received a government house in the last 20 years, are not eligible. Income groups: EWS up to ₹3 lakh, LIG ₹3–6 lakh, MIG ₹6–9 lakh per year.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": 900000,
+        "min_age": null,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "urban",
+          "no_pucca_house"
+        ]
+      },
+      "helpline": "Through the PMAY-U portal / state nodal agency",
+      "how_to_apply": [
+        "Check eligibility and apply on pmay-urban.gov.in, or at your municipal office / CSC.",
+        "Submit Aadhaar, income certificate and bank details.",
+        "For the home-loan subsidy (ISS), apply through your bank when taking a loan of up to ₹25 lakh."
+      ],
+      "id": "pmay-urban",
+      "keywords": [
+        "awas",
+        "house",
+        "urban",
+        "home loan",
+        "sheher",
+        "city",
+        "flat",
+        "makaan",
+        "ghar",
+        "housing",
+        "interest subsidy",
+        "मकान",
+        "घर",
+        "आवास",
+        "शहर"
+      ],
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "name": "PM Awas Yojana – Urban 2.0 (PMAY-U 2.0)",
+      "name_hi": "प्रधानमंत्री आवास योजना – शहरी 2.0",
+      "official_portal": "https://pmay-urban.gov.in"
+    },
+    {
+      "benefit": "Savings account for a girl child paying 8.2% interest per year (October–December 2026; reviewed every quarter), fully tax-free. Deposit ₹250 to ₹1.5 lakh per year.",
+      "benefit_short": "8.2% tax-free savings account for a girl child",
+      "category": "savings",
+      "description": "Launched in 2015 under Beti Bachao Beti Padhao. Parents or guardians open the account at a post office or authorised bank before the girl turns 10. Deposits run for 15 years and the account matures after 21 years (or at her marriage after age 18). Partial withdrawal up to 50% is allowed for her higher education after age 18.",
+      "description_hi": "बेटी के लिए बचत खाता — 8.2% ब्याज, पूरी तरह टैक्स-फ्री।",
+      "documents": [
+        "Birth certificate of the girl child",
+        "Aadhaar and PAN of parent/guardian",
+        "Address proof",
+        "Passport-size photos"
+      ],
+      "eligibility": {
+        "age_applies_to": "girl_child",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "The girl must be below 10 when the account is opened. A family can open accounts for up to two girls (three in case of twin/triplet girls in one birth).",
+        "gender": "female",
+        "max_age": 10,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "girl_child"
+        ]
+      },
+      "helpline": "Post office / bank branch",
+      "how_to_apply": [
+        "Visit your nearest post office or authorised bank with the documents.",
+        "Open the account with a minimum deposit of ₹250.",
+        "Deposit at least ₹250 every year for 15 years to keep the account active."
+      ],
+      "id": "sukanya",
+      "keywords": [
+        "sukanya",
+        "girl",
+        "beti",
+        "daughter",
+        "savings",
+        "ssy",
+        "education",
+        "marriage",
+        "child",
+        "ladki",
+        "बेटी",
+        "लड़की"
+      ],
+      "ministry": "Ministry of Finance (National Savings Institute)",
+      "name": "Sukanya Samriddhi Yojana (SSY)",
+      "name_hi": "सुकन्या समृद्धि योजना",
+      "official_portal": "https://www.nsiindia.gov.in"
+    },
+    {
+      "benefit": "Guaranteed monthly pension of ₹1,000 to ₹5,000 after age 60, depending on how much you contribute. The government also guarantees the pension if returns fall short.",
+      "benefit_short": "₹1,000–5,000/month pension after age 60",
+      "category": "pension",
+      "description": "A pension scheme for workers in the unorganised sector. You join between age 18 and 40, contribute a small amount every month (as low as ₹42 a month if you join at 18 for a ₹1,000 pension), and receive a fixed pension from age 60 for life. Your spouse continues to get the pension after you.",
+      "description_hi": "60 साल के बाद हर महीने ₹1,000–5,000 पेंशन, ज़िंदगी भर।",
+      "documents": [
+        "Aadhaar card",
+        "Savings bank / post office account",
+        "Mobile number"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Income-tax payers (since 1 October 2022) cannot newly join. You need a savings bank or post office account.",
+        "gender": "any",
+        "max_age": 40,
+        "max_family_income_inr": null,
+        "min_age": 18,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "bank_account"
+        ]
+      },
+      "helpline": "1800-110-069",
+      "how_to_apply": [
+        "Visit your bank or post office and fill the APY form, or apply through your bank's net banking.",
+        "Choose your pension amount (₹1,000–5,000) — the monthly contribution is set by your current age.",
+        "Contributions are auto-debited every month until you turn 60."
+      ],
+      "id": "apy",
+      "keywords": [
+        "pension",
+        "retirement",
+        "atal",
+        "apy",
+        "old age",
+        "60",
+        "monthly",
+        "unorganised",
+        "worker",
+        "labour",
+        "पेंशन",
+        "बुढ़ापा"
+      ],
+      "ministry": "Ministry of Finance (PFRDA)",
+      "name": "Atal Pension Yojana (APY)",
+      "name_hi": "अटल पेंशन योजना",
+      "official_portal": "https://www.npscra.nsdl.co.in"
+    },
+    {
+      "benefit": "Zero-balance bank account with a free RuPay debit card, accident insurance of ₹2 lakh, and an overdraft facility of up to ₹10,000. All subsidies and scheme payments (DBT) come into this account.",
+      "benefit_short": "Free zero-balance bank account + ₹2 lakh accident cover",
+      "category": "banking",
+      "description": "The national financial-inclusion mission, launched 28 August 2014. Any Indian citizen can open an account with minimal documents. It is the account into which most government scheme payments (PM-KISAN, scholarships, subsidies) are paid directly.",
+      "description_hi": "बिना पैसे के बैंक खाता, RuPay कार्ड और ₹2 लाख का बीमा — बिल्कुल मुफ़्त।",
+      "documents": [
+        "Aadhaar card (or any officially valid document)",
+        "Passport-size photo"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "None — any Indian citizen can open an account. Minors above 10 can open an account with a guardian.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "any"
+        ],
+        "requires": []
+      },
+      "helpline": "Toll-free 1800-11-0001 / 1800-180-1111",
+      "how_to_apply": [
+        "Visit any bank branch or Bank Mitra (CSP) outlet with Aadhaar.",
+        "Fill the account opening form and get your RuPay debit card on the spot.",
+        "Ask the bank to enable the overdraft facility after 6 months of satisfactory operation."
+      ],
+      "id": "pmjdy",
+      "keywords": [
+        "jan dhan",
+        "bank account",
+        "zero balance",
+        "rupay",
+        "account",
+        "debit card",
+        "bank",
+        "khata",
+        "insurance",
+        "overdraft",
+        "बैंक",
+        "खाता"
+      ],
+      "ministry": "Ministry of Finance",
+      "name": "PM Jan Dhan Yojana (PMJDY)",
+      "name_hi": "प्रधानमंत्री जन धन योजना",
+      "official_portal": "https://pmjdy.gov.in"
+    },
+    {
+      "benefit": "Scholarships for students from Class 1 to PhD — Pre-Matric and Post-Matric for SC/ST/OBC/minority students, Merit-cum-Means for professional and technical courses (course fee up to ₹20,000/year + maintenance allowance), and Top Class Education for SC students.",
+      "benefit_short": "Scholarships from Class 1 to PhD",
+      "category": "education",
+      "description": "One portal (scholarships.gov.in) for all central government scholarships. The best-known ones are Pre-Matric (Classes 1–10) and Post-Matric (Class 11 onwards) for SC, ST, OBC and minority students, and Merit-cum-Means for minority students in professional/technical courses (family income up to ₹2.5 lakh/year). Applications open every academic year, usually July to October.",
+      "description_hi": "पहली कक्षा से PhD तक के छात्रों के लिए छात्रवृत्ति, एक ही पोर्टल पर।",
+      "documents": [
+        "Aadhaar card",
+        "Previous class mark sheet",
+        "Income certificate",
+        "Caste/category certificate",
+        "Bonafide certificate from school/college",
+        "Bank account details"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "SC",
+          "ST",
+          "OBC",
+          "Minority"
+        ],
+        "exclusions": "Income and category limits differ by scheme — Pre-Matric/Post-Matric income caps vary by state and category. Merit-cum-Means needs family income up to ₹2.5 lakh/year and admission in a professional/technical course.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": 250000,
+        "min_age": null,
+        "occupations": [
+          "student"
+        ],
+        "requires": [
+          "student"
+        ]
+      },
+      "helpline": "0120-6619540",
+      "how_to_apply": [
+        "Register on scholarships.gov.in with Aadhaar (one-time registration).",
+        "Fill the common application form and upload documents.",
+        "Your institute verifies the application; the scholarship is paid by DBT to your bank account."
+      ],
+      "id": "nsp",
+      "keywords": [
+        "scholarship",
+        "student",
+        "padhai",
+        "school",
+        "college",
+        "nsp",
+        "education",
+        "fees",
+        "merit",
+        "post-matric",
+        "pre-matric",
+        "hostel",
+        "छात्रवृत्ति",
+        "पढ़ाई",
+        "स्कूल",
+        "कॉलेज",
+        "विद्यार्थी"
+      ],
+      "ministry": "Ministry of Education / Ministry of Minority Affairs / Ministry of Social Justice",
+      "name": "National Scholarship Portal (NSP) Scholarships",
+      "name_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल",
+      "official_portal": "https://scholarships.gov.in"
+    },
+    {
+      "benefit": "PM Vishwakarma certificate and ID card, free skill training with ₹500/day stipend, toolkit incentive up to ₹15,000, and collateral-free loans up to ₹3 lakh at 5% interest (₹1 lakh + ₹2 lakh in two tranches).",
+      "benefit_short": "₹15,000 toolkit + ₹3 lakh loan at 5% for artisans",
+      "category": "livelihood",
+      "description": "Launched 17 September 2023 for traditional artisans and craftspeople in 18 trades — carpenter, blacksmith, goldsmith, potter, tailor, mason, barber, cobbler, washerman, toy maker, fishing net maker and more. Runs till 2027-28. Only one member per family can register.",
+      "description_hi": "कारीगरों के लिए ₹15,000 के औज़ार और 5% ब्याज पर ₹3 लाख तक का लोन।",
+      "documents": [
+        "Aadhaar card",
+        "Mobile number linked to Aadhaar",
+        "Bank account details",
+        "Ration card"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Government employees and their families are excluded. Those who took loans under PMEGP, PM SVANidhi or Mudra in the last 5 years are excluded.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": 18,
+        "occupations": [
+          "artisan"
+        ],
+        "requires": [
+          "artisan_trade"
+        ]
+      },
+      "helpline": "1800-267-7777",
+      "how_to_apply": [
+        "Register at your nearest Common Service Centre (CSC) with Aadhaar — registration is free.",
+        "Complete verification (Gram Panchayat / ULB) and basic skill training.",
+        "Get your certificate, ID card and ₹15,000 toolkit e-voucher; then apply for the loan through the portal."
+      ],
+      "id": "pm-vishwakarma",
+      "keywords": [
+        "vishwakarma",
+        "artisan",
+        "karigar",
+        "carpenter",
+        "tailor",
+        "blacksmith",
+        "potter",
+        "tools",
+        "craft",
+        "mistri",
+        "darzi",
+        "lohar",
+        "kumhar",
+        "barber",
+        "cobbler",
+        "कारीगर",
+        "दर्जी",
+        "बढ़ई",
+        "लोहार",
+        "कुम्हार",
+        "मिस्त्री"
+      ],
+      "ministry": "Ministry of Micro, Small and Medium Enterprises",
+      "name": "PM Vishwakarma Yojana",
+      "name_hi": "प्रधानमंत्री विश्वकर्मा योजना",
+      "official_portal": "https://pmvishwakarma.gov.in"
+    },
+    {
+      "benefit": "Subsidy of ₹30,000 for 1 kW, ₹60,000 for 2 kW and ₹78,000 for 3 kW or more rooftop solar — up to 300 units of free electricity per month. Subsidy comes straight to your bank account.",
+      "benefit_short": "Up to ₹78,000 subsidy for rooftop solar",
+      "category": "energy",
+      "description": "Launched 13 February 2024, running till 31 March 2027, targeting 1 crore households. You apply on the national portal, choose a DISCOM-registered vendor, get the system installed and net meter fitted, and the subsidy is credited within about 30 days of commissioning. Collateral-free low-interest loans are available from public sector banks.",
+      "description_hi": "छत पर सोलर लगाने पर ₹78,000 तक की सब्सिडी, हर महीने 300 यूनिट मुफ़्त बिजली।",
+      "documents": [
+        "Electricity bill / consumer number",
+        "Aadhaar card",
+        "Bank account details (for subsidy)",
+        "Roof ownership proof"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "You must own a house with a suitable roof and have a valid electricity connection. Households that already took another solar rooftop subsidy cannot apply.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "any"
+        ],
+        "requires": [
+          "own_house_roof"
+        ]
+      },
+      "helpline": "15555",
+      "how_to_apply": [
+        "Register on pmsuryaghar.gov.in with your state, DISCOM and consumer number.",
+        "Apply for rooftop solar and get feasibility approval from the DISCOM.",
+        "Get the plant installed by a registered vendor, net meter fitted, and apply for the subsidy — it is credited to your bank account."
+      ],
+      "id": "pm-surya-ghar",
+      "keywords": [
+        "surya",
+        "solar",
+        "bijli",
+        "electricity",
+        "roof",
+        "subsidy",
+        "panel",
+        "chhat",
+        "free electricity",
+        "muft bijli",
+        "बिजली",
+        "सोलर",
+        "छत",
+        "मुफ़्त"
+      ],
+      "ministry": "Ministry of New and Renewable Energy",
+      "name": "PM Surya Ghar: Muft Bijli Yojana",
+      "name_hi": "प्रधानमंत्री सूर्य घर – मुफ़्त बिजली योजना",
+      "official_portal": "https://pmsuryaghar.gov.in"
+    },
+    {
+      "benefit": "Collateral-free business loans — Shishu up to ₹50,000, Kishore ₹50,000–5 lakh, Tarun ₹5–10 lakh, and Tarun Plus ₹10–20 lakh (for entrepreneurs who repaid a Tarun loan).",
+      "benefit_short": "Business loans up to ₹20 lakh, no collateral",
+      "category": "livelihood",
+      "description": "Loans for non-farm micro and small businesses — shops, manufacturing, services, trading. Loans are given by banks, NBFCs and MFIs (not by Mudra directly). Interest is set by the lender. Apply at any bank branch or on the Udyami Mitra portal.",
+      "description_hi": "अपना काम शुरू करने के लिए बिना गिरवी के ₹20 लाख तक का लोन।",
+      "documents": [
+        "Aadhaar and PAN",
+        "Address proof",
+        "Business proof / project report",
+        "Bank statements (last 6 months, if available)"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "The loan is for a business, not for personal use. Farm activities are not covered (crop loans have separate schemes). The applicant must not be a defaulter of any bank.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "business_owner",
+          "self_employed"
+        ],
+        "requires": [
+          "business"
+        ]
+      },
+      "helpline": "Through your bank / Udyami Mitra portal",
+      "how_to_apply": [
+        "Visit any bank branch, or apply on udyamimitra.in.",
+        "Fill the loan form with your business plan and documents.",
+        "The bank sanctions the loan and issues a Mudra card for working capital."
+      ],
+      "id": "pm-mudra",
+      "keywords": [
+        "mudra",
+        "loan",
+        "business",
+        "vyapar",
+        "shop",
+        "dukan",
+        "shishu",
+        "kishore",
+        "tarun",
+        "startup",
+        "udyam",
+        "self employed",
+        "paise",
+        "लोन",
+        "व्यवसाय",
+        "धंधा",
+        "दुकान",
+        "व्यापार",
+        "कर्ज"
+      ],
+      "ministry": "Ministry of Finance",
+      "name": "PM Mudra Yojana (PMMY)",
+      "name_hi": "प्रधानमंत्री मुद्रा योजना",
+      "official_portal": "https://www.udyamimitra.in"
+    },
+    {
+      "benefit": "Crop insurance against drought, flood, hailstorm, pests and disease. The farmer pays only 1.5% premium for kharif crops, 2% for rabi and 5% for horticulture — the government pays the rest.",
+      "benefit_short": "Cheap crop insurance — farmer pays only 1.5–5% premium",
+      "category": "agriculture",
+      "description": "Launched in 2016. All farmers, including sharecroppers and tenant farmers, can enrol. Claims are assessed on the basis of yield loss in the area and paid to the bank account. Enrolment is through banks, CSCs or the PMFBY portal before the sowing-season cut-off date.",
+      "description_hi": "फसल का बीमा — किसान सिर्फ 1.5% से 5% प्रीमियम दे, बाक़ी सरकार दे।",
+      "documents": [
+        "Aadhaar card",
+        "Land records / tenancy proof",
+        "Bank account details",
+        "Sowing certificate (if available)"
+      ],
+      "eligibility": {
+        "age_applies_to": "applicant",
+        "categories": [
+          "any"
+        ],
+        "exclusions": "Enrolment closes on the season cut-off date — you cannot insure a crop after sowing is over. Tenant/sharecropper farmers need proof of farming the land.",
+        "gender": "any",
+        "max_age": null,
+        "max_family_income_inr": null,
+        "min_age": null,
+        "occupations": [
+          "farmer"
+        ],
+        "requires": [
+          "landholding"
+        ]
+      },
+      "helpline": "14447",
+      "how_to_apply": [
+        "Enrol before the season cut-off date at your bank, CSC or on pmfby.gov.in.",
+        "Pay the small premium — the rest is paid by the government.",
+        "If the crop fails, report the loss on the portal or helpline within 72 hours; the claim is paid to your bank account."
+      ],
+      "id": "pmfby",
+      "keywords": [
+        "fasal",
+        "crop",
+        "bima",
+        "insurance",
+        "kisan",
+        "farmer",
+        "drought",
+        "flood",
+        "baarish",
+        "sukha",
+        "harvest",
+        "yield",
+        "फसल",
+        "बीमा",
+        "खेती",
+        "सूखा",
+        "बाढ़"
+      ],
+      "ministry": "Ministry of Agriculture and Farmers Welfare",
+      "name": "PM Fasal Bima Yojana (PMFBY)",
+      "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+      "official_portal": "https://pmfby.gov.in"
+    }
+  ]
+}
